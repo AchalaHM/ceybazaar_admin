@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     port: 5173, // change to desired port
   },
-  base: '/CeyBazaar-Admin', // replace with your context root
+  base: process.env.VITE_BASE_PATH || "/ceybazaar_admin", // replace with your context root
 })
