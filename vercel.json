@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/ceybazaar_admin/(.*)", "destination": "/ceybazaar_admin/index.html" }
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
   
